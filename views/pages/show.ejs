@@ -1,0 +1,15 @@
+<% include header %>
+
+<div class="comment">
+    <a href="/" class="avatar">
+        <img src="https://randomuser.me/api/portraits/lego/7.jpg">
+    </a>
+    <div class="content">
+        <div class="medadata">
+            <div class="date"><%= message.created.fromNom() %></div>
+        </div>
+        <div class="text"><%= message.content %></div>
+    </div>
+</div>
+
+<% include footer %>
